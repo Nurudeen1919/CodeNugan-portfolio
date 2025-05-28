@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF_8">
+<meat name="viewport" content="width=device-width, initial-scale=1.0"></meat>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+  <body>
+  <!-- Header -->
+    <header class="header" id="header">
+        <a href="#"><img src="./IMAGES/nobgn 2.png" alt="logo" > </a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    <div class="navMenu" id="navMenu">
+      <i class='bx bx-window-close' onclick="closeMenu()"></i>
+      <ul>
+       <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>  
+    </div>
+    <i class='bx bx-menu' onclick="openMenu()"></i>
+</header> 
+
+<!--------sub header seession-->
+<section class="sub-header" id="sub-header">
+   <h1>About <span>Me</span></h1>
+</section>
+
+
+
+<!---------about session-------->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="./IMAGES/laptech.png" alt="muslim brother image ">
+  </div>
+
+  <div class="about-text">
+    
+    <h4><span> i'm a</span> Design Technologist</h4>
+    <p>i bridge the gap between stunning visuaks and flawless functionality. <br><br>
+       i create digital experiences that are as beautiful as they are intuitive. <br><br>
+       with my expertise in tools like figma, React and typescript, i've been able to turn ideas into pixel-perfect interfaces<br><br>
+       i blend creative vision and technical prescision, ensuring every project is user-centered and built to scale. when i'm not coding or prototyping, you'll find me sketching wire frames or reading business articles for market trend updates and strategies.<br><br>
+    
+    </p>
+
+      <div class="button">
+      <a href="#" class="btn">Let's Talk</a>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="others" id="others">
+      <div class="text-title">
+        <h2>Why <span>Me?</span></h2>
+      </div>
+     <div class="others-img">
+      <img src="IMAGES/nobg.png" alt="">
+      <span class="circle-spin"></span>
+     </div>
+
+     <div class="others-text">
+      <h3><span>As</span> a Design Technologist and a web developer.</h3>
+      <p>
+         -i build unique and cut-edge designs to my work. combining technical expertise with creative vision.<br><br>
+         -i understand that people want something unique and i tailor my approch to individual needs.<br><br>
+         -i build solutions that makes life easier for users and businesses. i also prioritize the future stand out of these projects.   
+
+      </p>
+
+      <div>
+        <a href="" class="btn">Hire Me</a>
+      </div>
+     </div>
+
+    </section>
+ 
+
+<!--------footer----->
+<footer class="footer">
+<div class="attribution">
+  <p>Design With<i class='bx bx-heart'></i> By CodeNugan</p>
+</div>
+ 
+<div class="move-up">
+  <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+</footer>
+
+<!-------js for toggle menu--------->
+<script>
+  var navMenu = document.getElementById("navMenu");
+
+  function openMenu() {
+    navMenu.style.right = "0";
+  }
+
+  function closeMenu() {
+    navMenu.style.right = "-200px";
+  }
+
+</script>  
+</body>
+
+
+</html>
