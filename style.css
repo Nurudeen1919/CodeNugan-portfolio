@@ -104,7 +104,7 @@ span{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(IMAGES/tech\ boy.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./tech\ boy.jpg);
     display: flex;
     justify-content:center;
     align-items: center;
@@ -620,7 +620,7 @@ navMenu ul{
 .sub-header{
     height: 70vh;
     width: 100%;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(IMAGES/bot.webp);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./bot.webp);
     background-position: center;
     background-size: cover;
     text-align: center;
